@@ -1,0 +1,76 @@
+<html>
+<main id="main">
+<link rel="stylesheet" href="index.css"/>
+<link rel
+  <header id="header">
+    <h1 id="title">The Registration form of our Course</h1>
+    <p id="description">To join in our course, you will open all the doors of programming world...</p>
+
+  </header>
+  <section id="form" class="form">
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label" for="name">Your name: <input type="text" id="name" name="name" placeholder="please enter your valid name here" required>
+      </div>
+      <div class="form-group"> <label id="email-label" for="email"> Your email:</label> <input pattern="^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$" type="email" id="email" name="email" placeholder="example@example.com" required>
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="number">Your age: </label><input type="number" id="number" min="17" max="99" placeholder="enter only number">
+      </div>
+      <div class="form-group">
+        <label for="dropdown" id="dropdown-label">Select your english level:<select id="dropdown" name="dropdown">
+            <option disabled selected value>your level</option>
+            <option name="beginner" value="beginner">Beginner</option>
+            <option name="elementary" value="elementary">Elementary</option>
+            <option name="Intermediate" value="Intermediate">Intermediate</option>
+            <option name="Advanced" value="Advanced">Advanced</option>
+          </select>
+      </div>
+      <div class="form-group">
+        <p id="radio-description"> From what resource did you learn english before applyed to our course? </p>
+
+      </div>
+      <div class="form-group">
+        <label>
+          <input type="radio" id="r1" name="radio-btn" class="radio-btn" value="Other course"> Other course</label>
+      </div>
+      <div class="form-group">
+        <label>
+          <input type="radio" id="r2" name="radio-btn" class="radio-btn" value="Self study"> Self study</label>
+      </div>
+      <div class="form-group">
+        <label>
+          <input type="radio" id="r3" name="radio-btn" class="radio-btn" value="Online resources"> Online resources</label>
+      </div>
+      <div class="form-group">
+        <p id="check-description"> What type of lessons do you want to choose? </p>
+
+      </div>
+
+      <div class="form-group">
+        <label>
+          <input type="checkbox" id="c1" name="check-btn" class="check-btn" value="Individual"> Individual</label>
+      </div>
+      <div class="form-group">
+        <label>
+          <input type="checkbox" id="c2" name="check-btn" class="check-btn" value="With group"> With group</label>
+      </div>
+      <div class="form-group">
+        <label>
+          <input type="checkbox" id="c1" name="check-btn" class="check-btn" value="Online"> Online</label>
+      </div>
+      <div class="form-group">
+        <p id="txt-description"> Have you any suggestion, idea or question?
+        </p>
+        <div class="form-group">
+          <textarea id="txt" placeholder="Write here..."></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">Submit</button>
+        </div>
+
+    </form>
+  </section>
+</main>
+
+</html>
