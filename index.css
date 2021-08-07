@@ -1,1 +1,108 @@
-h
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+header {
+  color: white;
+}
+#title {
+  color: #f3f3f3;
+  font-family: "Poppins", sans-serif;
+}
+#description {
+  font-family: "Courgette", cursive;
+  font-size: 17px;
+}
+body {
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url("https://blog.ted.com/wp-content/uploads/sites/2/2014/11/learning_a_language.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  border: 2px solid rgba(27, 27, 50, 0.8);
+  border-radius: 10px;
+
+  padding: 2.5rem 0.125rem;
+  border-radius: 24px;
+  width: 550px;
+  background: rgba(27, 27, 50, 0.8);
+  color: white;
+  padding-right: 50px;
+  padding-left: 50px;
+ 
+}
+
+main {
+  text-align: center;
+}
+button {
+  display: inline-block;
+  width: 100%;
+  background: #35bd67;
+  cursor: pointer;
+  border-radius: 10px;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  margin-top: 35px;
+  margin-bottom: -10px;
+  font-size: 15px;
+  color: white;
+  font-style: bold;
+  border: 0px;
+}
+
+#txt,
+#dropdown,
+#number,
+#email,
+#name {
+  width: 98%;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.form-group {
+  margin-top: 20px;
+  font-size: 20px;
+ 
+  resize:vertical;
+}
+#dropdown {
+  width: 100%;
+}
+#txt {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+@media (max-width: 670px) {
+  #title,
+  #description {
+    font-size: 24px;
+  }
+  form {
+    width: inherit;
+    height: auto;
+    display: contents;
+  }
+  .form-group {
+    font-size: 10px;
+  }
+ 
+}
+
