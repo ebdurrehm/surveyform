@@ -96,7 +96,8 @@ button:hover {
     font-size: 10px;
   }
   form {
-    width: 300px;
+    width: inherit;
+    height: auto;
   }
   .form-group {
     font-size: 10px;
