@@ -102,6 +102,9 @@ button:hover {
   .form-group {
     font-size: 10px;
   }
+ #survey-form {
+   display: content;
+  }
  
 }
 
