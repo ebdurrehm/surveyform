@@ -93,12 +93,12 @@ button:hover {
 @media (max-width: 670px) {
   #title,
   #description {
-    font-size: 15px;
+    font-size: 25px;
   }
   form {
     width: inherit;
     height: auto;
-    display: content;
+    display: contents;
   }
   .form-group {
     font-size: 10px;
